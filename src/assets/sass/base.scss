@@ -1,0 +1,15 @@
+@function rem($px){
+    // 该项目的设计图是750px的
+    @return $px/75px*1rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
